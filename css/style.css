@@ -40,7 +40,7 @@ main h2{
 
 .tarjeta-section{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 10px; 
 }
 
@@ -54,8 +54,8 @@ main h2{
 .tarjeta-div{
     display: grid;
     justify-items: center; 
-    padding: 20px;
-    margin: 10px;
+    padding: 10px;
+    margin: 50px;
     background-color: white;
     border-radius: 20px;
     box-shadow: 0px 1px 10px;
@@ -74,6 +74,13 @@ main h2{
     width: 350px;
     height: auto;
     border-radius: 20px;
+}
+
+/* main personalizado */
+
+.formulario-perosonalizado{
+    display: flex;
+    margin-top: 400px;
 }
 
 /* footer */
