@@ -16,6 +16,10 @@ box-sizing: border-box;
     height: auto;
 }
 
+.color-barra{
+    background-color: white;
+}
+
 /* main */ /* index */
 
 main{
