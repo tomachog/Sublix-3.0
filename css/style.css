@@ -78,9 +78,50 @@ main h2{
 
 /* main personalizado */
 
-.formulario-perosonalizado{
+.div-personalizado{
     display: flex;
-    margin-top: 400px;
+    justify-content: center;
+    margin-top: 90px;
+    padding: 40px 20px;
+}
+
+.section-personalizado{
+    width: 100%;
+    max-width: 580px;
+}
+
+.section-personalizado h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.formulario-personalizado{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.formulario-personalizado label{
+    font-weight: bold;
+    margin-bottom: -10px;
+    margin-top: 10px;
+}
+
+.formulario-personalizado input,
+.formulario-personalizado select {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.formulario-personalizado input[type="submit"]{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+    margin-top: 20px;
 }
 
 /* footer */

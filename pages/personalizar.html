@@ -13,7 +13,7 @@
 
     <header>
 
-        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <nav class="navbar navbar-expand-lg color-barra fixed-top">
 
             <div class="container-fluid img-logo">
                 <figure>
@@ -48,52 +48,40 @@
     </header>
 
     <main>
-
-        <form class="row g-3 formulario-personalizado">
-            <div class="col-md-4">
-                <label for="validationDefault01" class="form-label">First name</label>
-                <input type="text" class="form-control" id="validationDefault01" value="Mark" required>
-            </div>
-            <div class="col-md-4">
-                <label for="validationDefault02" class="form-label">Last name</label>
-                <input type="text" class="form-control" id="validationDefault02" value="Otto" required>
-            </div>
-            <div class="col-md-4">
-                <label for="validationDefaultUsername" class="form-label">Username</label>
-                <div class="input-group">
-                    <span class="input-group-text" id="inputGroupPrepend2">@</span>
-                    <input type="text" class="form-control" id="validationDefaultUsername" aria-describedby="inputGroupPrepend2"
-                        required>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <label for="validationDefault03" class="form-label">City</label>
-                <input type="text" class="form-control" id="validationDefault03" required>
-            </div>
-            <div class="col-md-3">
-                <label for="validationDefault04" class="form-label">State</label>
-                <select class="form-select" id="validationDefault04" required>
-                    <option selected disabled value="">Choose...</option>
-                    <option>...</option>
-                </select>
-            </div>
-            <div class="col-md-3">
-                <label for="validationDefault05" class="form-label">Zip</label>
-                <input type="text" class="form-control" id="validationDefault05" required>
-            </div>
-            <div class="col-12">
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
-                    <label class="form-check-label" for="invalidCheck2">
-                        Agree to terms and conditions
-                    </label>
-                </div>
-            </div>
-            <div class="col-12">
-                <button class="btn btn-primary" type="submit">Submit form</button>
-            </div>
-        </form>
-
+    
+        <div class="div-personalizado">
+    
+            <section class="section-personalizado">
+    
+                <h2>Envianos tu Diseño</h2>
+    
+                <form class="formulario-personalizado">
+    
+                    <label for="form_nombre">Nombre</label>
+                    <input type="text" name="form_nombre" id="form_nombre" placeholder="Maria Lopez">
+    
+                    <label for="form_email">Email</label>
+                    <input type="email" name="form_email" id="form_email" placeholder="marialopez69@gmail.com">
+    
+                    <label for="form_tel">Telefono</label>
+                    <input type="tel" name="form_tel" id="form_tel" placeholder="3549 607080">
+    
+                    <label for="tipo_producto">Producto</label>
+                    <select name="tipo_producto" id="tipo_producto">
+                        <option value="taza">Taza</option>
+                        <option value="mousepad">Mouse Pad</option>
+                    </select>
+    
+                    <label for="form_file">Diseño</label>
+                    <input type="file" name="form_file" id="form_file">
+                    <input type="submit" value="Enviar">
+    
+                </form>
+    
+            </section>
+    
+        </div>
+    
     </main>
 
     <footer>
