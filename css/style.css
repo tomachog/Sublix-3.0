@@ -80,6 +80,14 @@ main h2{
     text-align: center;
 }
 
+.section-productos{
+    margin-top: 90px;
+}
+
+.main-h2{
+    margin-top: 100px;
+}
+
 /* main personalizado */
 
 .div-personalizado{
@@ -185,9 +193,6 @@ main h2{
     font-weight: bold;
     margin-top: 10px;
 }
-
-/* main productos */
-
 
 
 /* footer */
