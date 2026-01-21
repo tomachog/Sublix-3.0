@@ -76,6 +76,10 @@ main h2{
     border-radius: 20px;
 }
 
+.tarjeta-div h3{
+    text-align: center;
+}
+
 /* main personalizado */
 
 .div-personalizado{
@@ -181,6 +185,10 @@ main h2{
     font-weight: bold;
     margin-top: 10px;
 }
+
+/* main productos */
+
+
 
 /* footer */
 
